@@ -77,7 +77,7 @@ def game_board(game_map, player=0, row=0, column=0, just_display=False):
 				elif item == 1:
 					colored_row += Fore.GREEN + ' X ' + Style.RESET_ALL
 				elif item == 2:
-					colored_row += Fore.MAGENTA + ' Y ' + Style.RESET_ALL
+					colored_row += Fore.MAGENTA + ' O ' + Style.RESET_ALL
 
 			print(count+1, colored_row)
 
